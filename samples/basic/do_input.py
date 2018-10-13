@@ -8,8 +8,8 @@ age = input("请输入年龄：")
 # input()返回的是str类型
 age = int(age)
 if age <= 12:
-	print('kid')
+    print('kid')
 elif age <= 19:
-	print('teenager')
+    print('teenager')
 else:
-	print('adult')
+    print('adult')
